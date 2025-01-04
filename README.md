@@ -1,19 +1,24 @@
-## FindJob
+# FindJob
 
-_FindJob là nền tảng tìm kiếm việc làm phù hợp cho mọi đối tượng. Đây là nơi cung cấp các tin tuyển dụng, chất lượng tạo hồ sơ tìm việc, ứng tuyển trực tuyến giúp tiết kiệm thời gian_
+## Description
 
+a web-based platform that helps candidates and employers connect and communicate by **creating, managing, and sharing resumes, or CVs.**
 
-## Giới thiệu
+## Table of contents
 
-### Mục tiêu
+- [Features](#features)
+- [Tech Stack](#tech-stack)
 
-Hoàn thiện và đưa ra nền tảng tìm kiếm việc làm dựa theo các tiêu chí được đề ra.
+### Features
 
-### Công nghệ sử dụng
+- Export CVs to PDF format.
+- Share CVs via a unique URL.
+- Responsive design for mobile and desktop devices.
+- Features created for the system's many user types.
 
-- Frontend: React + TypeScript (Vite), NextJS + TypeScript.
-- Backend: NodeJS, Express, TypeScript, Prisma, PostgreSQL.
+### Tech Stack
 
-### Kết quả
-
-Đưa ra sản phẩm thử nghiệm hệ thống với việc deploy hệ thống client lên vercel.
+- Frontend: React (Vite & NextJS) + TypeScript, TailwindCSS, axios, React Query (tanstack).
+- Backend: Node.js, Express + TypeScript, Prisma, socket.io.
+- Database: PostgreSQL.
+- Deployment: Vercel.
